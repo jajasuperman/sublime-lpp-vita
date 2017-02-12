@@ -1,0 +1,526 @@
+{
+  "scope": "source.lua",
+
+  "completions": [
+    {
+      "trigger": "SCE_CTRL_CROSS",
+      "contents": "SCE_CTRL_CROSS"
+    },
+    {
+      "trigger": "SCE_CTRL_SQUARE",
+      "contents": "SCE_CTRL_SQUARE"
+    },
+    {
+      "trigger": "SCE_CTRL_CIRCLE",
+      "contents": "SCE_CTRL_CIRCLE"
+    },
+    {
+      "trigger": "SCE_CTRL_TRIANGLE",
+      "contents": "SCE_CTRL_TRIANGLE"
+    },
+    {
+      "trigger": "SCE_CTRL_START",
+      "contents": "SCE_CTRL_START"
+    },
+    {
+      "trigger": "SCE_CTRL_SELECT",
+      "contents": "SCE_CTRL_SELECT"
+    },
+    {
+      "trigger": "SCE_CTRL_RTRIGGER",
+      "contents": "SCE_CTRL_RTRIGGER"
+    },
+    {
+      "trigger": "SCE_CTRL_LTRIGGER",
+      "contents": "SCE_CTRL_LTRIGGER"
+    },
+    {
+      "trigger": "SCE_CTRL_UP",
+      "contents": "SCE_CTRL_UP"
+    },
+    {
+      "trigger": "SCE_CTRL_DOWN",
+      "contents": "SCE_CTRL_DOWN"
+    },
+    {
+      "trigger": "SCE_CTRL_LEFT",
+      "contents": "SCE_CTRL_LEFT"
+    },
+    {
+      "trigger": "SCE_CTRL_RIGHT",
+      "contents": "SCE_CTRL_RIGHT"
+    },
+    {
+      "trigger": "SET",
+      "contents": "SET"
+    },
+    {
+      "trigger": "CUR",
+      "contents": "CUR"
+    },
+    {
+      "trigger": "END",
+      "contents": "END"
+    },
+    {
+      "trigger": "FREAD",
+      "contents": "FREAD"
+    },
+    {
+      "trigger": "FWRITE",
+      "contents": "FWRITE"
+    },
+    {
+      "trigger": "FCREATE",
+      "contents": "FCREATE"
+    },
+    {
+      "trigger": "FRDWR",
+      "contents": "FRDWR"
+    },
+    {
+      "trigger": "LOOP",
+      "contents": "LOOP"
+    },
+    {
+      "trigger": "NO_LOOP",
+      "contents": "NO_LOOP"
+    },
+    {
+      "trigger": "RUNNING",
+      "contents": "RUNNING"
+    },
+    {
+      "trigger": "FINISHED",
+      "contents": "FINISHED"
+    },
+    {
+      "trigger": "CANCELED",
+      "contents": "CANCELED"
+    },
+    {
+      "trigger": "MODE_TEXT",
+      "contents": "MODE_TEXT"
+    },
+    {
+      "trigger": "MODE_PASSWORD",
+      "contents": "MODE_PASSWORD"
+    },
+    {
+      "trigger": "TYPE_DEFAULT",
+      "contents": "TYPE_DEFAULT"
+    },
+    {
+      "trigger": "TYPE_LATIN",
+      "contents": "TYPE_LATIN"
+    },
+    {
+      "trigger": "TYPE_NUMBER",
+      "contents": "TYPE_NUMBER"
+    },
+    {
+      "trigger": "TYPE_EXT_NUMBER",
+      "contents": "TYPE_EXT_NUMBER"
+    },
+    {
+      "trigger": "FIRST_CTRL",
+      "contents": "FIRST_CTRL"
+    },
+    {
+      "trigger": "SECOND_CTRL",
+      "contents": "SECOND_CTRL"
+    },
+    {
+      "trigger": "io.open",
+      "contents": "${1:fileStream} = io.open(${2:file}, ${3:attribute})"
+    },
+    {
+      "trigger": "io.read",
+      "contents": "${1:text} = io.read(${2:filestream}, ${3:size})"
+    },
+    {
+      "trigger": "io.write",
+      "contents": "io.write(${1:filestream}, ${2:text}, ${3:size})"
+    },
+    {
+      "trigger": "io.size",
+      "contents": "io.size(${1:filestream})"
+    },
+    {
+      "trigger": "io.seek",
+      "contents": "io.seek(${1:filestream}, ${2:pos}, ${3:type})"
+    },
+    {
+      "trigger": "io.close",
+      "contents": "io.close(${1:filestream})"
+    },
+    {
+      "trigger": "System.exit",
+      "contents": "System.exit()"
+    },
+    {
+      "trigger": "System.deleteFile",
+      "contents": "System.deleteFile(${1:path})"
+    },
+    {
+      "trigger": "System.deleteDirectory",
+      "contents": "System.deleteDirectory(${1:path})"
+    },
+    {
+      "trigger": "System.rename",
+      "contents": "System.rename(${1:path}, ${2:path2})"
+    },
+    {
+      "trigger": "System.createDirectory",
+      "contents": "System.createDirectory(${1:path})"
+    },
+    {
+      "trigger": "System.listDirectory",
+      "contents": "${1:list_dir} = System.listDirectory(${2:path})"
+    },
+    {
+      "trigger": "System.doesFileExist",
+      "contents": "System.doesFileExist(${1:path})"
+    },
+    {
+      "trigger": "System.wait",
+      "contents": "System.wait(${1:microseconds})"
+    },
+    {
+      "trigger": "System.isBatteryCharging",
+      "contents": "System.isBatteryCharging()"
+    },
+    {
+      "trigger": "System.getBatteryPercentage",
+      "contents": "${1:percentage} = System.getBatteryPercentage()"
+    },
+    {
+      "trigger": "System.getBatteryLifetime",
+      "contents": "${1:lifetime} = System.getBatteryLifetime()"
+    },
+    {
+      "trigger": "System.powerTick",
+      "contents": "System.powerTick()"
+    },
+    {
+      "trigger": "System.getCpuSpeed",
+      "contents": "${1:freq} = System.getCpuSpeed()"
+    },
+    {
+      "trigger": "System.setCpuSpeed",
+      "contents": "System.setCpuSpeed(${1:freq})"
+    },
+    {
+      "trigger": "System.launchEboot",
+      "contents": "System.launchEboot(${1:filename})"
+    },
+    {
+      "trigger": "System.extractFromZIP",
+      "contents": "System.extractFromZIP(${1:zip_file}, ${2:path_to_extract})"
+    },
+    {
+      "trigger": "System.extractZIP",
+      "contents": "System.extractZIP(${1:file}, ${2:path_to_extract})"
+    },
+    {
+      "trigger": "System.getTime",
+      "contents": "${1:h}, ${2:m}, ${3:s} = System.getTime()"
+    },
+    {
+      "trigger": "System.getDate",
+      "contents": "${1:day_value}, ${2:day}, ${3:month}, ${3:year} = System.getDate()"
+    },
+    {
+      "trigger": "System.getLanguage",
+      "contents": "${1:language} = System.getLanguage()"
+    },
+    {
+      "trigger": "System.getUsername",
+      "contents": "${1:user} = System.getUsername()"
+    },
+    {
+      "trigger": "Color.new",
+      "contents": "Color.new(${1:r}, ${2:g}, ${3:b})"
+    },
+    {
+      "trigger": "Color.getR",
+      "contents": "${1:red_value} = Color.getR(${2:color})"
+    },
+    {
+      "trigger": "Color.getG",
+      "contents": "${1:green_value} = Color.getG(${2:color})"
+    },
+    {
+      "trigger": "Color.getB",
+      "contents": "${1:blue_value} = Color.getB(${2:color})"
+    },
+    {
+      "trigger": "Color.getA",
+      "contents": "${1:green_value} = Color.getA(${2:color})"
+    },
+    {
+      "trigger": "Screen.clear",
+      "contents": "Screen.clear()"
+    },
+    {
+      "trigger": "Screen.flip",
+      "contents": "Screen.flip()"
+    },
+    {
+      "trigger": "Screen.getPixel",
+      "contents": "${1:clr} = Screen.getPixel(${2:x}, ${3:y}) "
+    },
+    {
+      "trigger": "Screen.waitVblankStart",
+      "contents": "Screen.waitVblankStart()"
+    },
+    {
+      "trigger": "Graphics.initBlend",
+      "contents": "Graphics.initBlend()"
+    },
+    {
+      "trigger": "Graphics.termBlend",
+      "contents": "Graphics.termBlend()"
+    },
+    {
+      "trigger": "Graphics.debugPrint",
+      "contents": "Graphics.debugPrint(${1:x}, ${2:y}, ${3:text}, ${4:color})"
+    },
+    {
+      "trigger": "Graphics.fillRect",
+      "contents": "Graphics.fillRect(${1:x1}, ${2:x2}, ${3:y1}, ${4:y2}, ${5:color})"
+    },
+    {
+      "trigger": "Graphics.fillEmptyRect",
+      "contents": "Graphics.fillEmptyRect(${1:x1}, ${2:x2}, ${3:y1}, ${4:y2}, ${5:color})"
+    },
+    {
+      "trigger": "Graphics.drawLine",
+      "contents": "Graphics.drawLine(${1:x1}, ${2:x2}, ${3:y1}, ${4:y2}, ${5:color})"
+    },
+    {
+      "trigger": "Graphics.drawPixel",
+      "contents": "Graphics.drawPixel(${1:x}, ${2:y}, ${3:color})"
+    },
+    {
+      "trigger": "Graphics.fillCircle",
+      "contents": "Graphics.fillCircle(${1:x}, ${2:y}, ${3:radius}, ${4:color})"
+    },
+    {
+      "trigger": "Graphics.loadImage",
+      "contents": "${1:image} = Graphics.loadImage(${2:file})"
+    },
+    {
+      "trigger": "Graphics.drawImage",
+      "contents": "Graphics.drawImage(${1:x}, ${2:y}, ${3:image})"
+    },
+    {
+      "trigger": "Graphics.drawPartialImage",
+      "contents": "Graphics.drawPartialImage(${1:x}, ${2:y}, ${3:img_x}, ${4:img_y}, ${5:width}, ${6:height}, ${7:image})"
+    },
+    {
+      "trigger": "Graphics.drawRotateImage",
+      "contents": "Graphics.drawRotateImage(${1:x}, ${2:y}, ${3:image}, ${4:radius})"
+    },
+    {
+      "trigger": "Graphics.drawScaleImage",
+      "contents": "Graphics.drawScaleImage(${1:x}, ${2:y}, ${3:image}, ${4:x_scale}, ${5:y_scale})"
+    },
+    {
+      "trigger": "Graphics.drawImageExtended",
+      "contents": "Graphics.drawImageExtended(${1:x}, ${2:y}, ${3:img_x}, ${4:img_y}, ${5:width}, ${6:height}, ${7:radius}, ${8:x_scale}, ${9:y_scale}, ${10:image})"
+    },
+    {
+      "trigger": "Graphics.createImage",
+      "contents": "${1:img} = Graphics.createImage(${2:width}, ${3:height})"
+    },
+    {
+      "trigger": "Graphics.getImageWidth",
+      "contents": "${1:width} = Graphics.getImageWidth(${2:image})"
+    },
+    {
+      "trigger": "Graphics.getImageHeight",
+      "contents": "${1:height} = Graphics.getImageHeight(${2:image})"
+    },
+    {
+      "trigger": "Graphics.freeImage",
+      "contents": "Graphics.freeImage(${1:image})"
+    },
+    {
+      "trigger": "Font.load",
+      "contents": "{1:my_font} = Font.load({2:filename})"
+    },
+    {
+      "trigger": "Font.setPixelSizes",
+      "contents": "Font.setPixelSizes({1:font}, {2:size})"
+    },
+    {
+      "trigger": "Font.print",
+      "contents": "Font.print({1:font}, {2:x}, {3:y), {4:text}, {5:color}"
+    },
+    {
+      "trigger": "Font.unload",
+      "contents": "Font.unload({1:font})"
+    },
+    {
+      "trigger": "Controls.read",
+      "contents": "{1:pad} = Controls.read()"
+    },
+    {
+      "trigger": "Controls.check",
+      "contents": "Controls.check({1:controls}, {2:button})"
+    },
+    {
+      "trigger": "Controls.readLeftAnalog",
+      "contents": "{1:x}, {2:y} = Controls.readLeftAnalog()"
+    },
+    {
+      "trigger": "Controls.readRightAnalog",
+      "contents": "{1:x}, {2:y} = Controls.readRightAnalog()"
+    },
+    {
+      "trigger": "Controls.readTouch",
+      "contents": "{1:x1}, {2:y1}, {3:x2}, {4:y2} = Controls.readTouch()"
+    },
+    {
+      "trigger": "Controls.readRetroTouch",
+      "contents": "{1:x1}, {2:y1}, {3:x2}, {4:y2} = Controls.readRetroTouch()"
+    },
+    {
+      "trigger": "Controls.rumble",
+      "contents": "Controls.rumble({1:ctrlr_id}, {2:intensity})"
+    },
+    {
+      "trigger": "Controls.setLightbar",
+      "contents": "Controls.setLightbar({1:ctrlr_id}, {2:color})"
+    },
+    {
+      "trigger": "Sound.init",
+      "contents": "Sound.init()"
+    },
+    {
+      "trigger": "Sound.term",
+      "contents": "Sound.term()"
+    },
+    {
+      "trigger": "Sound.openMidi",
+      "contents": "{1:snd} = Sound.openMidi({2:filename})"
+    },
+    {
+      "trigger": "Sound.openWav",
+      "contents": "{1:snd} = Sound.openWav({2:filename})"
+    },
+    {
+      "trigger": "Sound.openMp3",
+      "contents": "{1:snd} = Sound.openMp3({2:filename})"
+    },
+    {
+      "trigger": "Sound.openOgg",
+      "contents": "{1:snd} = Sound.openOgg({2:filename})"
+    },
+    {
+      "trigger": "Sound.isPlaying",
+      "contents": "Sound.isPlaying({1:snd})"
+    },
+    {
+      "trigger": "Sound.play",
+      "contents": "Sound.play({1:snd}, {2:loop})"
+    },
+    {
+      "trigger": "Sound.close",
+      "contents": "Sound.close({1:snd})"
+    },
+    {
+      "trigger": "Sound.pause",
+      "contents": "Sound.pause({1:snd})"
+    },
+    {
+      "trigger": "Sound.resume",
+      "contents": "Sound.resume({1:snd})"
+    },
+    {
+      "trigger": "Network.initFTP",
+      "contents": "{1:ip}, {2:port} = Network.initFTP()"
+    },
+    {
+      "trigger": "Network.termFTP",
+      "contents": "Network.termFTP()"
+    },
+    {
+      "trigger": "Socket.init",
+      "contents": "Socket.init()"
+    },
+    {
+      "trigger": "Socket.term",
+      "contents": "Socket.term()"
+    },
+    {
+      "trigger": "Socket.createServerSocket",
+      "contents": "${1:server_id} = Socket.createServerSocket(${2:port})"
+    },
+    {
+      "trigger": "Socket.connect",
+      "contents": "${1:client_id} = Socket.connect(${2:sock_id}, ${3:port})"
+    },
+    {
+      "trigger": "Socket.send",
+      "contents": "Socket.send(${1:sock_id}, ${2:text})"
+    },
+    {
+      "trigger": "Socket.receive",
+      "contents": "${1:msg} = Socket.receive(${2:sock_id}, ${3:size})"
+    },
+    {
+      "trigger": "Socket.accept",
+      "contents": "${1:client_id} = Socket.accept(${2:server_id})"
+    },
+    {
+      "trigger": "Socket.close",
+      "contents": "Socket.close(${1:client_id})"
+    },
+    {
+      "trigger": "Timer.new",
+      "contents": "${1:timer} = Timer.new()"
+    },
+    {
+      "trigger": "Timer.getTime",
+      "contents": "${1:time} = Timer.getTime(${2:timer})"
+    },
+    {
+      "trigger": "Timer.destroy",
+      "contents": "Timer.destroy(${1:timer})"
+    },
+    {
+      "trigger": "Timer.reset",
+      "contents": "Timer.reset(${1:timer})"
+    },
+    {
+      "trigger": "Timer.pause",
+      "contents": "Timer.pause(${1:timer})"
+    },
+    {
+      "trigger": "Timer.resume",
+      "contents": "Timer.resume(${1:timer})"
+    },
+    {
+      "trigger": "Timer.isPlaying",
+      "contents": "Timer.isPlaying(${1:timer})"
+    },
+    {
+      "trigger": "Keyboard.show",
+      "contents": "Keyboard.show(${1:title}, ${2:initial_text})"
+    },
+    {
+      "trigger": "Keyboard.getState",
+      "contents": "${1:state} = Keyboard.getState()"
+    },
+    {
+      "trigger": "Keyboard.getInput",
+      "contents": "${1:my_text} = Keyboard.getInput()"
+    },
+    {
+      "trigger": "Keyboard.clear",
+      "contents": "Keyboard.clear()"
+    }
+  ]
+}
