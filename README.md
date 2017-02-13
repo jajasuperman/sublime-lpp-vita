@@ -7,3 +7,6 @@ Official documentation: http://rinnegatamante.it/lpp-vita_doc.html
 When a Lua source is opened, just press Ctrl+Space and the package will show you all lpp functions.
 
 Function params will be fill with argument names (return values also)
+
+<img src="https://github.com/jajasuperman/sublime-lpp-vita/blob/master/demo.png"
+      alt="Screenshot">
